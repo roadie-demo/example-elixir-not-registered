@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-things
+  title: example-things
+  description: things and examples
+  annotations:
+    github.com/project-slug: roadie-demo/example-elixir-not-registered
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+  tags:
+    
+spec:
+  type: service
+  owner: group:roadie-demo/engineering
+  lifecycle: production
